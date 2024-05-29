@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+  <test thread-count="5" name="Test">
+    <classes>
+	   <class name="SuperAdmin.Cylinder_CRUD"/>
+	   <class name="SuperAdmin.Distributor_Admin_Crud"/>
+      <class name="DistributedAdmin.Create_company_CRUD"/>
+      <class name="DistributedAdmin.Create_Cylinder_CRUD"/>
+      <class name="DistributedAdmin.Distributor_User_CRUD"/>
+      <class name="DistributorUser.DistributorUserAccess"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
